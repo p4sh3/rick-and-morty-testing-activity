@@ -47,6 +47,10 @@ Una aplicación web moderna para explorar el universo de Rick and Morty, constru
 
 4.  Abrir [http://localhost:3000](http://localhost:3000) en tu navegador.
 
+## 🧪 Pruebas
+
+Ejecuta las pruebas con `pnpm test:run`. Para ejecutar la suite y generar el reporte de cobertura HTML en `coverage/`, usa `pnpm test:coverage` (equivalente a `vitest run --coverage`). La configuración exige al menos 80% en statements, branches, functions y lines.
+
 ## 🚀 Despliegue
 
 La forma más sencilla de desplegar esta aplicación es utilizando [Vercel](https://vercel.com/new).
